@@ -15,7 +15,7 @@ if __name__ == '__main__':
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 def obter_nota(ordem: int) -> float:
-    """Solicita e valida uma nota entre 0.0 e 10.0."""
+
     while True:
         try:
             nota = float(input(f"Digite a nota N{ordem} (0.0 a 10.0): "))
