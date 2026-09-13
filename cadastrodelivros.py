@@ -13,10 +13,8 @@ class Livro:
         print("-" * 30)
 
 
-# Lista para armazenar os livros
 livros = []
 
-# Cadastro dos livros
 while True:
     print("\n--- CADASTRO DE LIVRO ---")
 
@@ -26,10 +24,8 @@ while True:
     preco = float(input("Digite o preço: R$ "))
     quantidade = int(input("Digite a quantidade: "))
 
-    # Criando um objeto da classe Livro
     livro = Livro(titulo, autor, preco, quantidade)
 
-    # Adicionando o livro à lista
     livros.append(livro)
 
     continuar = input("\nDeseja cadastrar outro livro? (s/n): ")
@@ -37,8 +33,6 @@ while True:
     if continuar.lower() != "s":
         break
 
-
-# Listagem dos livros cadastrados
 print("\n===== LIVROS CADASTRADOS =====")
 
 for livro in livros:
