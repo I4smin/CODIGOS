@@ -6,7 +6,6 @@ while contador <= 10:
     notas.append(nota)
     contador += 1
 
-# Calculando os resultados
 maior = max(notas)
 menor = min(notas)
 media = sum(notas) / len(notas)
@@ -16,7 +15,6 @@ print("Maior nota:", maior)
 print("Menor nota:", menor)
 print("Média da turma:", media)
 
-# Verificando aprovação e reprovação
 aprovados = 0
 reprovados = 0
 
