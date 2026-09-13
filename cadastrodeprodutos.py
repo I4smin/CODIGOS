@@ -11,7 +11,6 @@ while contador <= 5:
 
     contador += 1
 
-# Encontrando o produto mais caro e o mais barato
 mais_caro = max(produtos, key=lambda produto: produto[1])
 mais_barato = min(produtos, key=lambda produto: produto[1])
 
